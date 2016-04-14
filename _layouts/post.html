@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="row" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d. %m. %Y" }}</time>
+      {% if page.author %} • Autoři:
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+      {% endif %} •
+      {% if page.tags %}
+      <span>Tagy: {{ page.tags | array_to_sentence_string }}</span>
+      {% endif %}
+    </p>
+  </header>
+
+  <div itemprop="articleBody">
+    <img src="{{ page.image | prepend: "/assets/img/posts/" | prepend: site.baseurl}}"
+      alt="{{ page.title }}" class="float-right thumbnail" style="margin: 10px;">
+    {{ content }}
+  </div>
+</article>
+
+<hr>
+
+<div class="row">
+    <div class="large-3 large-offset-2 columns">
+      <p><i class="fi-heart"></i> Sdílení je aktem lásky:</p>
+    </div>
+    <div class="large-1 columns">
+      <p><a class="twitter-share-button"
+        href="https://twitter.com/intent/tweet?text={{ "Piráti Praha: " | cgi_escape}}{{ page.title | cgi_escape}}">
+      Tweet</a></p>
+    </div>
+    <div class="large-3 columns">
+      <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+      </div>
+    </div>
+    <div class="large-3 columns"></div>
+</div>
+
+<br>

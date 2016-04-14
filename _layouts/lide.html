@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="large-5 columns">
+    <div class="row" style="width: 550px;">
+      <div class="large-12 column">
+        {% if page.name == 'index.html' %}
+        <!-- Carousel / Orbit -->
+        <div class="orbit" role="region" aria-label="Náš tým" data-orbit style="width: 450px;">
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Předchozí</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Další</span>&#9654;&#xFE0E;</button>
+            {% for person in site.people %}
+              <li class="orbit-slide{% if forloop.first %} is-active{% endif %}">
+                <a href="{{person.url}}">
+                  <img class="orbit-image" src="{{person.img | prepend: "/assets/img/people/" | prepend: site.baseurl }}" alt="{{person.name}}">
+                  <figcaption class="orbit-caption">{{person.name}}</figcaption>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <!-- end Carousel / Orbit -->
+        {% else %}
+        <img src="{{page.img | prepend: "/assets/img/people/" | prepend: site.baseurl }}" alt="{{page.name}}">
+        {% endif %}
+      </div>
+    </div>
+    {% for person in site.people %}
+    <div class="row" {% if page.url == person.url %}style="background:yellow;"{% endif %}>
+      <div class="large-3 column">
+          <a href="{{person.url | prepend: site.baseurl }}">
+            <img src="{{person.img | prepend: "/assets/img/people/" | prepend: site.baseurl }}" alt="{{page.name}}" style="width: 90px;">
+          </a>
+      </div>
+      <div class="large-9 column">
+        <h5>{{person.name}}</h5>
+
+        <p><small>{{person.description | truncate: 110}}</small></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="large-7 columns">
+      {% if page.name != 'index.html' %}
+      <br>
+
+      <h1>{{page.name}}</h1>
+
+      <h5>{{page.description}}</h5>
+      {% endif %}
+
+      <br>
+
+      {{ content }}
+
+      {% if page.name != 'index.html' %}
+      <hr>
+
+      <h3>Napsal:</h3>
+
+      <ul class="posts">
+      {% for post in site.posts %}
+          {% if post.author contains page.name %}
+              <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+      {% endfor %}
+      </ul>
+      {% endif %}
+  </div>
+</div>

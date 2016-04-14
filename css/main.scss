@@ -1,0 +1,34 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+/*
+@import "black-menu";
+*/
+@import "article-card";
+
+/* Menu text */
+.menu {
+  text-transform: uppercase;
+  font-weight: 570;
+  color: #363230;
+  //border: 1px;
+  //border-bottom-style: solid;
+}
+
+/* Black bar at the top of the page */
+.black-bar {
+  /*margin-top: 20px;*/
+  background-color: #363230;
+  color: white;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#back-top {
+  position: fixed;
+  bottom:20px;
+  right: 2%;
+  z-index: 100;
+}

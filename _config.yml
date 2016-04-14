@@ -1,0 +1,33 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Piráti Střední čechy
+email: frantisek.kopriva@pirati.cz
+description: > # this means to ignore newlines until "baseurl:"
+    Piráti Středočeský kraj
+baseurl: "/websck" # the subpath of your site, e.g. /blog  http://stackoverflow.com/questions/16316311/github-pages-and-relative-paths/19173888#19173888
+url: "http://praha.pirati.cz" # the base hostname & protocol for your site
+title_page:
+  video: https://www.youtube.com/embed/pWK515EHyG0
+  calendar:  https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=rm0h4oqjk2j2o0615sc4d1slfk%40group.calendar.google.com&amp;color=%23B1365F&amp;src=lpvmfpogihrca3lqs9p2udae0k%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=Europe%2FPrague
+
+permalink: /blog/:title/
+collections:
+  people:
+    output: true
+    permalink: /lide/:path/
+
+gems:
+  - jekyll-paginate
+paginate_path: "/blog/page:num/"
+paginate: 12
+
+# Build settings
+markdown: kramdown
+
+cdn: false

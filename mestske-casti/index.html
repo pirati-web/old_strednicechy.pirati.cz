@@ -1,0 +1,94 @@
+---
+layout: default
+---
+
+<img id="Image-Maps-Com-image-maps-2016-03-23-115946" src="{{"/assets/img/mestske-casti/praha-rozdeleni.jpg" | prepend: site.baseurl}}" border="0" width="1500" height="880" orgWidth="1500" orgHeight="880" usemap="#image-maps-2016-03-23-115946" alt="Rozdělení Prahy" />
+<map name="image-maps-2016-03-23-115946" id="ImageMapsCom-image-maps-2016-03-23-115946">
+<area alt="Praha 6" title="Praha 6" href="#p6" shape="poly" coords="302,228,404,178,417,193,449,152,470,157,484,190,561,184,552,110,569,100,613,105,624,117,614,132,636,150,621,176,644,196,644,218,669,224,642,246,618,250,601,274,633,289,598,297,553,297,492,305,436,305,393,262,374,270,358,221" style="outline:none;" target="_self"     />
+<area alt="Praha 8" title="Praha 8" href="#centrum" shape="poly" coords="633,102,609,132,633,150,616,169,664,230,641,249,610,252,602,273,624,290,642,289,656,341,718,326,718,305,777,302,814,262,802,241,780,241,801,197,764,181,794,146,821,110,804,89,818,85,825,30,780,28,754,37,746,70,684,66,660,93" style="outline:none;" target="_self"     />
+<area alt="Praha 9 a okolí" title="Praha 9" href="#p9" shape="poly" coords="822,24,866,18,873,61,902,48,926,64,926,85,938,90,966,80,990,80,974,101,1004,162,1104,166,1105,210,1194,256,1186,296,1126,328,1070,364,1050,365,1005,300,986,313,966,280,930,309,909,285,880,297,870,258,845,278,817,258,804,240,776,241,805,201,773,185,805,144,816,84" style="outline:none;" />
+<area alt="Praha 10" title="Praha 10" href="#p10" shape="poly" coords="709,334,720,302,772,298,812,270,864,264,885,293,917,292,933,308,976,284,978,308,1008,304,1040,354,1086,366,1072,360,1078,398,1086,378,1126,410,1124,472,1102,496,1078,496,1077,532,1006,516,961,472,942,494,920,484,904,496,864,486,861,521,826,538,802,530,820,454,790,432,756,422,806,389,757,361" style="outline:none;" target="_self" />
+<area alt="Praha 5" title="Praha 5" href="#p5" shape="poly" coords="426,302,480,302,518,308,609,292,638,292,658,349,633,424,596,437,568,498,494,497,477,529,500,538,473,546,442,514,452,486,462,500,478,453,422,441,385,404,389,373,342,345,366,314" style="outline:none;" target="_self" />
+<area alt="Praha 12" title="Praha 12" href="#p12" shape="poly" coords="653,344.000010172526,698,328.000010172526,808,385.000010172526,770,405.000010172526,756,412.000010172526,773,436.000010172526,794,438.000010172526,817,470.000010172526,805,530.000010172526,782,546.000010172526,756,576.000010172526,734,602.000010172526,712,600.000010172526,686,618.000010172526,632,598.000010172526,622,562.000010172526,622,457.000010172526" style="outline:none;" target="_self"     />
+<area alt="Praha 16" title="Praha 16" href="#p16" shape="poly" coords="505,541.000010172526,477,525.000010172526,485,501.000010172526,508,505.000010172526,560,493.000010172526,573,477.000010172526,588,442.000010172526,629,432.000010172526,628,481.000010172526,636,516.000010172526,622,589.000020345052,646,584.000020345052,618,688.000020345052,597,665.000020345052,564,660.000020345052,520,666.000020345052,493,636.000020345052,521,605.000020345052,530,589.000020345052,498,598.000020345052,520,562.000020345052" style="outline:none;" target="_self"     />
+</map>
+
+<!--
+<div class="row">
+  <img src="{{"/assets/img/mestske-casti/praha-rozdeleni.jpg" | prepend: site.baseurl}}">
+</div>
+-->
+
+<hr>
+
+<div class="row">
+  <div class="columns large-6">
+    <h2>Krajské sdružení</h2>
+    <p>Krajské sdružení Praha (KS) se dělí na 7 místních sdružení (MS).</p>
+    <p>Krajským předsedou je <a href="{{ '/lide/ondrej-profant/' | prepend: site.baseurl }}">Ondřej Profant</a>, dále jsou v krajském předsednictvu 4 místopředsedové.</p>
+  </div>
+
+  <div class="columns large-6">
+    <h2 id="centrum">Praha sever <small>1, 2, 3, 7, 8</small></h2>
+    <p>Kontaktní osoba: <a href="{{ '/lide/ondrej-profant/' | prepend: site.baseurl }}">Ondřej Profant</a>, předseda KS Praha</p>
+    <p>V obdvodě je za nás zvolen senátor <a href="http://libormichalek.cz/">Libor Michálek</a></p>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.tags contains 'p1' or post.tags contains 'p7' or post.tags contains 'p8' %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-6">
+    <h2 id="p6">Praha severozápad<br><small>6, Suchdol, Lysolaje</small></h2>
+    <p><a href="{{ '/lide/viktor-mahrik/' | prepend: site.baseurl }}">Viktor Mahrik</a>, místopředseda KS Praha</p>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.tags contains 'p6' %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="columns large-6">
+    <h2 id="p9">Praha severovýchod<br><small>9, 14, 18, 19, 21</small></h2>
+    <p><a href="{{ '/lide/dana-balcarova/' | prepend: site.baseurl }}">Dana Balcarová</a>, zastupitelka P9</p>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.tags contains 'p9' %}
+            <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="columns large-6">
+    <h2 id="p5">Praha západ<br><small>5, 13, 17, Slivenec, Zličín, Řeporyje</small></h2>
+    <p>Tomáš Murňák, předseda MS</p>
+    <p>V obdvodě je s naší spolúčastí zvolen senátor <a href="http://www.vaclavlaska.cz/">Václav Láska</a>, jsme v zastupitelstvu Prahy 5 i Prahy 13.</p>
+  </div>
+  <div class="columns large-6">
+    <h2 id="p4">Praha jih<br><small>4, 12 , Libuš, Kunratice</small></h2>
+    <p>Lukáš Findeis, místopředseda KS Praha</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="columns large-6">
+    <h2 id="p16">Praha jihozápad<br><small>Radotín, Zbraslav, Velká Chuchle, Lipence, Lochkov</small></h2>
+    <p><a href="{{ '/lide/michaela-krausova/' | prepend: site.baseurl }}">Michaela Krausová</a>, předsedkyně MS
+  </div>
+  <div class="columns large-6">
+    <h2 id="p10">Praha jihovýchod<br><small>10, 11, 15, 22</small></h2>
+    <p>Olga Richterová, předsedkyně MS</p>
+    <p>Pavel Hájek, místopředseda KS Praha</p>
+    <p>Veškeré informace jsou na separátním webu: <a href="http://www.pirati10.cz/">praha10.pirati.cz</a></p>
+
+  </div>
+</div>
+
+<br>

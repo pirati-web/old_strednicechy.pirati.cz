@@ -1,0 +1,32 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:site_name" content="Piráti Praha" />
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  {% if page.layout == "post" %}
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="{{page.image | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:description" content="{{ post.excerpt | truncatewords: 34 }}" />
+  <meta property="og:locale" content="cs_CZ" />
+  {% endif %}
+
+  <link rel="icon" type="image/png" href="{{ "/assets/img/layout/favicon.png" | prepend: site.baseurl }}" />
+  {% if site.cdn %}
+  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.css" />
+  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
+  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css" />
+  <link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% else %}
+  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/foundation.min.css" | prepend: site.baseurl }}" />
+  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/foundation-icons.css" | prepend: site.baseurl }}" />
+  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/motion-ui.min.css" | prepend: site.baseurl }}" />
+  <link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+  {% endif %}
+</head>
