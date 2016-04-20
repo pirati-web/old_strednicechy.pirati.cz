@@ -1,7 +1,7 @@
 ---
 name:        Jan Loužek
 layout:      lide
-img:         jan-louzek.jpg
+img:         denys-luksik.jpg
 description: Wikipedista, fotograf a zveřejňovač klubu zastupitelů na Magistrátu.
 ---
 

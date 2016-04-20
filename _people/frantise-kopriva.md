@@ -1,12 +1,16 @@
 ---
-name:        Adam Zabranský
+name:        František Kopřiva
 layout:      lide
-img:         adam-zabransky.jpg
-description: Student práv a wikipedista. Zaměřuje se na svobodomyslnou Prahu, sběr podnětů od občanů, právní analýzu dokumentů.
+img:         frantisek-kopriva.jpg
+description: Student elektrotechniky. Zaměřuje se na moderní technologie a zlepšování veřejného prostoru.
 ---
 
-**Adam Zábranský** (* 28. prosince 1993, Praha) je student Právnické fakulty Univerzity Karlovy, vegan a amatérský volejbalista, fanoušek svobodné kultury a svobodného software a propagátor legalizace drog.
+**František Kopřiva** (* 30. listopadu 1995, Mladá Boleslav) studuje obor Muldimediální technika na Fakultě elektrotechnické ČVUT v Praze. Maturitní zkoušku složil na Gymnáziu Dr. Josefa Pekaře v Mladé Boleslavi. Mezi jeho záliby patří rozšiřování obzorů, hudba, filmy, knížky, hry, tvůrčí psaní, cestování, věda, sport a samozřejmě politické dění, světové i domácí.
 
-Členem Pirátské strany se stal v 18 letech. Byl členem kontrolní komise a republikového výboru Pirátů, koordinátorem překladů a správcem [Twitter účtu Pirátů](https///twitter.com/PiratePartyCZ). Byl také prvním předsedou [Mladých Pirátů](http://mladipirati.cz/index.php?title=Hlavn%C3%AD_strana), kteroužto funkci v roce 2014 milerád předal dál.
+Do Pirátské strany vstoupil v 18 letech na jaře 2014 poté, co dlouhodobě pomáhal jako příznivec. Je členem Republikového výboru a Zahraničního odboru. Také působí v předsednictvu Středočeského krajského sdružení.
 
-Pochází z Prahy, odjakživa žije na jejím okraji v Radotíně. Vystudoval Gymnázium Jana Keplera a předtím čtyři roky studoval na Mensa gymnáziu. Ve čtrnácti letech [začal přispívat](http://cs.wikipedia.org/wiki/Wikipedista:Adam_Z%C3%A1bransk%C3%BD) na českou Wikipedii. Zajímají ho hlavně právo, politika, nové technologie, evoluční biologie, psychologie a sociologie. Z etických důvodů se v osmnácti letech stal vegetariánem a v devatenácti veganem.
+Angažováním se v České pirátské straně nechce František nic menšího, než přispět k pozitivnímu vývoji lidstva. Piráti jsou pro něj názorově nejkompatibilnější stranou a považuje ji za nejlepší alternativu na české politické scéně. Strana ho velmi obohatila a poskytla prostor získávat nové zkušenosti a pracovat s výbornými lidmi, František se zase snaží být co největším přínosem pro pirátské hejno.
+
+
+Web: https://frantisekkopriva.cz
+Twitter: https://twitter.com/FrantiekKopiva

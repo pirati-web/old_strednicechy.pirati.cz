@@ -1,7 +1,7 @@
 ---
 name:        Dana Balcarová
 layout:      lide
-img:         dana-balcarova.jpg
+img:         lenka-kozlova.jpg
 description: Opoziční zastupitelka na Praze 9.
 ---
 
