@@ -30,4 +30,4 @@ paginate: 12
 # Build settings
 markdown: kramdown
 
-cdn: false
+cdn: true
