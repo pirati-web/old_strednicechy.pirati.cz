@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign sorted_people = (site.people | sort:"order") %}
 
 <div class="row">
   <div class="large-5 columns">
@@ -12,7 +13,7 @@ layout: default
           <ul class="orbit-container">
             <button class="orbit-previous"><span class="show-for-sr">Předchozí</span>&#9664;&#xFE0E;</button>
             <button class="orbit-next"><span class="show-for-sr">Další</span>&#9654;&#xFE0E;</button>
-            {% for person in site.people %}
+            {% for person in sorted_people %}
               <li class="orbit-slide{% if forloop.first %} is-active{% endif %}">
                 <a href="{{person.url}}">
                   <img class="orbit-image" src="{{person.img | prepend: "/assets/img/people/" | prepend: site.baseurl }}" alt="{{person.name}}">
@@ -28,7 +29,7 @@ layout: default
         {% endif %}
       </div>
     </div>
-    {% for person in site.people %}
+    {% for person in sorted_people %}
     <div class="row" {% if page.url == person.url %}style="background:yellow;"{% endif %}>
       <div class="large-3 column">
           <a href="{{person.url | prepend: site.baseurl }}">

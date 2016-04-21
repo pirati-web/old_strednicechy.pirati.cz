@@ -1,6 +1,7 @@
 ---
 name:        František Kopřiva
 layout:      lide
+order:       1
 img:         frantisek-kopriva.jpg
 description: Student elektrotechniky. Zaměřuje se na moderní technologie a zlepšování veřejného prostoru.
 ---
