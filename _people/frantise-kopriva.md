@@ -3,7 +3,7 @@ name:        František Kopřiva
 layout:      lide
 order:       1
 img:         frantisek-kopriva.jpg
-description: Student elektrotechniky. Zaměřuje se na moderní technologie a zlepšování veřejného prostoru.
+description: Student elektrotechniky, copywriter, aktivista
 ---
 
 **František Kopřiva** (* 30. listopadu 1995, Mladá Boleslav) studuje obor Muldimediální technika na Fakultě elektrotechnické ČVUT v Praze. Maturitní zkoušku složil na Gymnáziu Dr. Josefa Pekaře v Mladé Boleslavi. Mezi jeho záliby patří rozšiřování obzorů, hudba, filmy, knížky, hry, tvůrčí psaní, cestování, věda, sport a samozřejmě politické dění, světové i domácí.
@@ -14,4 +14,5 @@ Angažováním se v České pirátské straně nechce František nic menšího, 
 
 
 Web: https://frantisekkopriva.cz
+<p>
 Twitter: https://twitter.com/FrantiekKopiva
