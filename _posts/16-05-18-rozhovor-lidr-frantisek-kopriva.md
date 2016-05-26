@@ -1,5 +1,5 @@
 ---
-layout: eu
+layout: post
 category: blog
 tags: František Kopřiva, Čapí hnízdo
 title: František Kopřiva: Středočeský kraj trápí zadluženost a korupce

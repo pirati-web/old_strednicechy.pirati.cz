@@ -1,5 +1,5 @@
 ---
-layout: eu
+layout: post
 category: blog
 tags: vyoseni
 title: Středočeští Piráti pořádají 1. Nymburské VyOsení

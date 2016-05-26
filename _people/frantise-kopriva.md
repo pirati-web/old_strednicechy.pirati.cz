@@ -14,5 +14,5 @@ Angažováním se v České pirátské straně nechce František nic menšího, 
 
 
 Web: https://frantisekkopriva.cz
-<p>
+
 Twitter: https://twitter.com/FrantiekKopiva
