@@ -1,17 +1,14 @@
 ---
 layout: post
 category: blog
-tags: František Kopřiva, Čapí hnízdo
-title: František Kopřiva: Středočeský kraj trápí zadluženost a korupce
-image: /assets/images/blog/monika-karel.jpg
-autor: František Kopřiva
+tags: čapí-hnízdo volby2016 lídr
+title: "František Kopřiva: Středočeský kraj trápí zadluženost a korupce"
+image: frantisek-kopriva.jpg
+author: František Kopřiva
+date: 2016-05-16
 ---
 
-
-### František Kopřiva: Středočeský kraj trápí zadluženost a korupce
-
-**16. května, Praha.** *Do krajských voleb 2016 povede středočeské Piráty nejmladší lídr v republice. Dvacetiletý student FEL ČVUT František Kopřiva nízký věk nepovažuje za překážku a aktivně se zapojuje do politického dění.*
-
+*Do krajských voleb 2016 povede středočeské Piráty nejmladší lídr v republice. Dvacetiletý student FEL ČVUT František Kopřiva nízký věk nepovažuje za překážku a aktivně se zapojuje do politického dění.*
 
 **_Preference Pirátů ve Středních Čechách překročily 5% hranici a stále rostou. Půjdete do voleb samostatně nebo v koalici?_**
 
@@ -45,9 +42,9 @@ Snažíš se přivést své známé do strany? Přemlouváš je, aby volili Pir�
 
 Rozhodně své politické přesvědčení nikomu nenutím. Ale lidi mého věku většinou reagují na mé působení u Pirátů pozitivně. Když na to přijde řeč a vycítím jejich zájem, vysvětlím jim, co dělám. A pokud se chtějí třefba nějak zapojit, rád jim vyjdu vstříc.
 
-Převzato z [Pirátských listů](http://www.piratskelisty.cz/clanek-1501-frantisek-kopriva-stredocesky-kraj-trapi-zadluzenost-a-korupce)
+Převzato z [Pirátských listů](http://www.piratskelisty.cz/clanek-1501-frantisek-kopriva-stredocesky-kraj-trapi-zadluzenost-a-korupce).
 
 ##### Další informace
-[Facebook](https://www.facebook.com/Franti%C5%A1ek-Kop%C5%99iva-236486863149324)
 
-[Twitter](https://twitter.com/FrantiekKopiva)
+- [Facebook](https://www.facebook.com/Franti%C5%A1ek-Kop%C5%99iva-236486863149324)
+- [Twitter](https://twitter.com/FrantiekKopiva)
