@@ -5,7 +5,7 @@ tags: vyoseni, nymburk, akce-2016
 title: "Středočeští Piráti pořádají 1. Nymburské VyOsení"
 image: frantisek-kopriva.jpg
 author: František Kopřiva
-date: 2016-05-16
+date: 2016-05-24
 ---
 
 **26. května, Nymburk.** *Piráti z Místního sdružení Nymburk srdečně zvou na 1. Nymburské VyOsení. Přijďte se v soboru 28. května pobavit v areálu restaurace Na Žofíně v Nymburce. Jedná se o další akci festivalu svobodné hudby nezatížený poplatky kolektivním správcům autorských děl. Kromě dobré hudby a tance se uskteční beseda o cestování po Sibiři a připravuje se i promítání dokumentu Tlačítka bdělosti a další doprovodný program. Těší se na vás členové a příznivci Pirátské strany. Začátek akce je v poledne.*
