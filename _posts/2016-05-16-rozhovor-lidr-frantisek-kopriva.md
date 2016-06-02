@@ -26,23 +26,21 @@ Naše obecná témata jsou transparentní a efektivní hospodaření, lepší p�
 
 Hlavní téma se nabízí samo. Středočeský kraj je nejzadluženější ze všech. V oblasti veřejných zakázek a čerpání dotací tu navíc dochází k mnoha podvodům. Spletitá kauza bývalého hejtmana Davida Ratha je dokonale známa. Aktuálně zase sledujeme dění kolem podvodného čerpání dotací v případě Čapího hnízda. Za obrovský úspěch bych považoval, kdyby se podobným aférám podařilo zabránit.
 
-Co bys udělal v roli krajského zastupitele na prvním místě?
+**_Co bys udělal v roli krajského zastupitele na prvním místě?_**
 
 Pokud bychom se dostali do krajského zastupitelstva, bylo by nás Pirátů víc a pracovali bychom v týmu. Začneme od menších kroků. Jednou z prvních věcí, kterou bychom myslím mohli prosadit, by byl videopřenos a záznam ze zasedání zastupitelstva. Postupně se pak dostaneme k „velkým“ tématům, kde se neobejdeme bez dobré přípravy a spousty práce.
 
-Na politiku ses dal opravdu brzy. Co tě k ní přivedlo?
+**_Na politiku ses dal opravdu brzy. Co tě k ní přivedlo?_**
 
 Vždycky jsem se zajímal o to, co se kolem mě děje, a chtěl jsem věci měnit k lepšímu. Nelíbil se mi politický vývoj a otravovalo mě poslouchat plané stížnosti v mém okolí. Když se v roce 2013 konaly předčasné sněmovní volby měsíc před mými 18. narozeninami, naštvalo mě, že nemůžu volit. Takže jsem aspoň pomáhal Pirátům s kontaktní kampaní a od té doby už se vezu.
 
-Většina tvých kamarádů řeší nejspíš úplně jiné věci. Mluvíš s nimi někdy taky o politice?
+**_Většina tvých kamarádů řeší nejspíš úplně jiné věci. Mluvíš s nimi někdy taky o politice?_**
 
 Žiju vcelku normální studentský život a mám stejné starosti jako moji vrstevníci. O politice se s nimi samozřejmě bavím a nemůžu říct, že by se o ni nezajímali.
 
-Snažíš se přivést své známé do strany? Přemlouváš je, aby volili Piráty?
+**_Snažíš se přivést své známé do strany? Přemlouváš je, aby volili Piráty?_**
 
 Rozhodně své politické přesvědčení nikomu nenutím. Ale lidi mého věku většinou reagují na mé působení u Pirátů pozitivně. Když na to přijde řeč a vycítím jejich zájem, vysvětlím jim, co dělám. A pokud se chtějí třefba nějak zapojit, rád jim vyjdu vstříc.
-
-Převzato z [Pirátských listů](http://www.piratskelisty.cz/clanek-1501-frantisek-kopriva-stredocesky-kraj-trapi-zadluzenost-a-korupce).
 
 ##### Další informace
 

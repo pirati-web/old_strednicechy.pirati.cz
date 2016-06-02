@@ -1,17 +1,14 @@
 ---
 layout: post
 category: blog
-tags: vyoseni hudba
+tags: vyoseni, nymburk, akce-2016
 title: "Středočeští Piráti pořádají 1. Nymburské VyOsení"
-image: monika-karel.jpg
-author: Petr Procházka, František Kopřiva
-date: 2016-05-26
+image: frantisek-kopriva.jpg
+author: František Kopřiva
+date: 2016-05-16
 ---
 
-
-Svobodná hudba, originální domument, beseda s cestovateli, zábava i trocha komunální politiky
-
-Piráti z Místního sdružení Nymburk srdečně zvou na 1. Nymburské VyOsení. Přijďte se v soboru 28. května pobavit v areálu restaurace Na Žofíně v Nymburce. Jedná se o další akci festivalu svobodné hudby nezatížený poplatky kolektivním správcům autorských děl. Kromě dobré hudby a tance se uskteční beseda o cestování po Sibiři a připravuje se i promítání dokumentu Tlačítka bdělosti a další doprovodný program. Těší se na vás členové a příznivci Pirátské strany. Začátek akce je v poledne.
+**26. května, Nymburk.** *Piráti z Místního sdružení Nymburk srdečně zvou na 1. Nymburské VyOsení. Přijďte se v soboru 28. května pobavit v areálu restaurace Na Žofíně v Nymburce. Jedná se o další akci festivalu svobodné hudby nezatížený poplatky kolektivním správcům autorských děl. Kromě dobré hudby a tance se uskteční beseda o cestování po Sibiři a připravuje se i promítání dokumentu Tlačítka bdělosti a další doprovodný program. Těší se na vás členové a příznivci Pirátské strany. Začátek akce je v poledne.*
 
 Na 1. Nymburském VyOsení se představí většinou interpreti tvrdšího ražení. Od rockové skupiny Narušené Spojení z Čelákovic, přes punk rock kapely TmZtM a Radio 9510 až po zajímavé pojetí rock´n´rollu v podání Turnovských All Friends Dead nebo hard rock mladičké nymburské formace Live in Box. Vrcholem akce bude psychedelická show pražských HLDP (Hliníkové Lopatky dědečka Pipýna).
 
@@ -24,9 +21,3 @@ Nebude se ale jen hrát, připravený je také doprovodný program. Promítat se
 Akce je dobrou příležitostí nejen k zábavě, ale i k neformálním diskuzím o problémech běžných lidí na Nymbursku a středních Čechách vůbec. "VyOsení je elegantní způsob, jak spojit zábavu s politikou. Primárním účelem je uspořádat pro lidi zábavný program a dát místním kapelám možnost si zahrát. Zároveň ale také upozorňujeme na problematickou legislativu kolem autorských práv a jejich správců." Říká František Kopřiva, který na podzim povede středočeské Piráty do krajských voleb 2016.
 
 Na místě nebude chybět ani info stánek Pirátů s drobnými dárečky. Se středočeskými Piráty si budete moci promluvit o pirátských idejích a programu i o tom, co trápí lidi v kraji. Potkat se můžete například s lídrem středočeské kandidátky Františkem Kopřivou nebo předsedkyní středočeských Pirátů Lenkou Kozlovou.
-
-## Další informace
-
-FB akce: https://www.facebook.com/events/1362426497104578/
-
-Pozvánka na 1. Nymburské VyOsení: http://www.piratskelisty.cz/clanek-1517-prijedte-28-kvetna-na-vyoseni-do-nymburka
