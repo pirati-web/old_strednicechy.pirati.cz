@@ -3,7 +3,7 @@ layout: post
 category: blog
 tags: vyoseni, nymburk, akce-2016
 title: "Středočeští Piráti pořádají 1. Nymburské VyOsení"
-image: frantisek-kopriva.jpg
+image: vyoseni-nymburk-1.jpg
 author: František Kopřiva
 date: 2016-05-24
 ---
