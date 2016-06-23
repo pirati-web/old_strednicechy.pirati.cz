@@ -8,21 +8,31 @@
     <!-- <div class="top-bar" id="main-menu"> -->
     <div id="main-menu">
       <div class="top-bar-left" style="background-color: white;">
-        <nav>
-          <ul class="menu vertical medium-horizontal medium-text-center">
-            <li><a href="{{"/" | prepend: site.basepath }}">Piráti Střední čechy</a></li>
-          </ul>
+        <nav><!--
+          Cokoliv vlevo v nejvyšším řádku -->
         </nav>
       </div>
       <div class="top-bar-right" style="background-color: white;">
         <nav>
           <ul class="menu vertical medium-horizontal medium-text-center">
-            <li><a href="{{"/blog/" | prepend: site.baseurl}}">Novinky</a></li>
-            <li><a href="{{"/kandidatka/" | prepend: site.baseurl}}">Kandidátka</a></li>
-            <li><a href="{{"/program/" | prepend: site.baseurl}}">Program</a></li>
-            <li><a href="{{"/zapoj-se/" | prepend: site.baseurl}}">Zapoj se</a></li>
-            <li><a href="{{"/kalendar/" | prepend: site.baseurl}}">Kalendář</a></li>
-            <li><a href="{{"/kontakt/" | prepend: site.baseurl}}">Kontakt</a></li>
+            <li {% if page.url == "/blog/" or page.layout == "post" %}class="active"{% endif %}>
+              <a href="{{"/blog/" | prepend: site.baseurl}}">Novinky</a>
+            </li>
+            <li  {% if page.url == "/kandidatka/" or page.layout == "lide" %}class="active"{% endif %}>
+              <a href="{{"/kandidatka/" | prepend: site.baseurl}}">Kandidátka</a>
+            </li>
+            <li  {% if page.url == "/program/" %}class="active"{% endif %}>
+              <a href="{{"/program/" | prepend: site.baseurl}}">Program</a>
+            </li>
+            <li {% if page.url == "/pripoj-se/" %}class="active"{% endif %}>
+              <a href="{{"/pripoj-se/" | prepend: site.baseurl}}">Připoj se</a>
+            </li>
+            <li {% if page.url == "/kalendar/" %}class="active"{% endif %}>
+              <a href="{{"/kalendar/" | prepend: site.baseurl}}">Kalendář</a>
+            </li>
+            <li {% if page.url == "/kontakt/" %}class="active"{% endif %}>
+              <a href="{{"/kontakt/" | prepend: site.baseurl}}">Kontakt</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -30,10 +40,10 @@
   </div>
 
   <div id="mc_embed_signup">
-    <form action="//pirati.us9.list-manage.com/subscribe/post?u=7e063d6dffdb0316b906e1351&amp;id=5b1243a65b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <form action="{{ site.title_page.mailchimp.action }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true" class="hide">
-        <input type="text" name="b_7e063d6dffdb0316b906e1351_5b1243a65b" tabindex="-1" value="">
+        <input type="text" name="{{ site.title_page.mailchimp.captcha }}" tabindex="-1" value="">
       </div>
       <!-- / -->
       <div class="align-middle black-bar expanded">
