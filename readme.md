@@ -1,33 +1,45 @@
-# Web Praha
+# Web Pirátů Střední čechy
 
-Nový web Pirátů v Praze. Web je zamýšlen pro celé krajské sdružení - zastupitele (magistrát i mč), veřejnost, členy i pracovníky. Náhled je k dispozici na: http://pirati-cz.github.io/webpraha2/
+Web Pirátů v Praze. Web je zamýšlen pro celé krajské sdružení - zastupitele (magistrát i mč), veřejnost, členy i pracovníky. Běží na adrese: http://praha.pirati.cz
 
-Toto readme je čistě technické a metodické.
+Pro psaní článků je třeba umět [markdown](https://daringfireball.net/projects/markdown/). Pro zbylé úpravy html a css framework [Foundation 6](http://foundation.zurb.com/). Takže je třeba seznámit se alespoň se základy gitu.
 
+## Jak přispívat?
 
-## Funkcionality
+Používáme technologii [Jekyll](http://jekyllrb.com/), která tvoří web ze statických [šablonovaných (Liquid)](https://shopify.github.io/liquid/) stránek. Díky tomu je vše velmi jednoduché:
 
-Celý web bude vyvíjen agilně, čili spustíme první funkční verzi. Mnoho textů, designových prvků se ještě jistě bude měnit.
+- články jsou markdown soubory v adresaři `_posts`
+- profily lidí z týmu jsou markdown soubory v adresaři `_pepople`
+- stránky jsou klasické html soubory (mohou být i markdown)
 
-Věci, které jsou hotové (pro verzi 1):
+### Lokální test
 
-- technologie (jekyll, template etc.)
-- design
-- články
-  - výpis
-  - paginace
-- mailchimp integrace
+V adresaři s repozitářem spustíme příkaz:
+`jekyll serve --incremental --baseurl '' `
+což spustí server s webem a my si ho můžeme prohlédnout.
 
-TODO:
+### Správný commit
 
-- integrace Disqus
+Pro upload se používá git. Ten rozděluje "uploady" na commity.
 
+Správný commit vždy:
 
-## Náhled a kompilace
+- zachová funkčnost
+- dodává 1 funcionalitu (např. nové menu)
+- obsahuje popis z kterého je zřejmé, co mění (např.: *Rewrite main menu from Foundation 5 to Foundation 6*).
 
-Stránka je k vidění na `http://pirati-cz.github.io/webpraha2/`,
-lokálně je třeba kompilovat: `jekyll serve --baseurl ''`
+### Debug cache
 
+1. Stránku vždy vyzkoušíme [lokálně](#lokálni-test) (tím předejdeme chybám jako špatné cesty)
+2. Pokud by stránka lokálně nefungovala dobře, tak smažte `_site` a zkuste to znovu
+3. Po nahrání na web stránku vyzkoušíme v anonymním okně prohlížeče
+4. Zkusíme dát `ctrl+f5`
+5. Správná kompilace i tak může trvat např. 5 minut
+6. Poslední možností je zaslat prázdný commit, který by měl vynutit přegenerování stránky:  
+    ```
+    git commit -m 'rebuild pages' --allow-empty  
+    git push
+    ```
 
 ## Standardizace tagů
 
@@ -72,8 +84,13 @@ Praha jako celek: Praha, ZHMP
 ```
 
 
+## Pokročilé
 
-## Použité technologie
+### Výkon
+
+Základním nástrojem pro měření výkonu kompilace: `jekyll build --profile`
+
+### Použité technologie
 
 - [CSS / JS frontend Foundation 6](http://foundation.zurb.com/), [dokumentace](http://foundation.zurb.com/sites/docs/)
 - [CSS template](http://foundation.zurb.com/templates-previews-sites-f6/news-magazine.html)
@@ -82,3 +99,11 @@ Praha jako celek: Praha, ZHMP
   - [Ladění FB](https://365tipu.wordpress.com/2015/04/13/tip103-co-delat-kdyz-facebook-odmita-vlozit-odkaz-na-web/)
 - [Disqus a Google analytics, Twitter light share](http://joshualande.com/jekyll-github-pages-poole)
 - [Responsibilita](http://design.google.com/resizer/)
+- Font pro loga: M+1p Heavy, vel. 72.
+
+### Instalace Jekyll na čistou Fedora 23
+```
+sudo dnf install gem rubygems-devel.noarch gcc ruby-devel
+dnf install rpm-build
+sudo gem install jekyll  jekyll-paginate
+```
