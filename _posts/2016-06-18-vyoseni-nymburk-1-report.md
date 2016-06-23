@@ -17,3 +17,8 @@ O hodinu později pak na venkovním pódiu zaduněly první tóny houpavého pun
 Vedle zábavy došlo také na vážnější záležitosti. Během VyOsení středočeští Piráti navázali spolupráci s místním spolkem Permanent. Přislíbili podporu Pirátské strany v boji proti nelegálnímu výrobnímu provozu společnosti AZOS, který nesnesitelným zápachem dlouhodobě znepříjemňuje život ve městě.
 
 Nyburské VyOsení mělo velmi příznivý ohlas, proto už nyní pořadatelé plánují zopakovat akci už v polovině letošního září.
+
+![Fotky z VyOsení](/assets/img/posts/IMG_20160528_182253.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_20160528_182041.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_20160528_192846.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_20160528_195907.jpg)

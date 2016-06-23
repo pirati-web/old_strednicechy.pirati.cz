@@ -3,7 +3,7 @@ layout: post
 category: blog
 tags: demonstrace, nymburk, azos
 title: "Piráti podpořili demonstranty proti lakovně AZOS v Nymburce"
-image: vyoseni-nymburk-2.jpg
+image: demo-azos.jpg
 author: František Kopřiva
 date: 2016-06-15
 ---
