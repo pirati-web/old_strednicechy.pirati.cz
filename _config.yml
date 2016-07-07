@@ -23,7 +23,10 @@ mailchimp:
 
 title_page:
   video: https://www.youtube.com/embed/pWK515EHyG0
-  calendar:  https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=rm0h4oqjk2j2o0615sc4d1slfk%40group.calendar.google.com&amp;color=%23B1365F&amp;src=lpvmfpogihrca3lqs9p2udae0k%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=Europe%2FPrague
+  calendar: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=rm0h4oqjk2j2o0615sc4d1slfk%40group.calendar.google.com&amp;color=%23B1365F&amp;src=lpvmfpogihrca3lqs9p2udae0k%40group.calendar.google.com&amp;color=%238D6F47&amp;ctz=Europe%2FPrague
+
+kontakt:
+  map: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10239.994608957739!2d14.4421077!3d50.0863121!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x317d7c609cbfe9da!2zUGlyw6F0c2vDqSBjZW50cnVtLCBzw61kbG8gxIxlc2vDqSBwaXLDoXRza8OpIHN0cmFueQ!5e0!3m2!1scs!2scz!4v1466169010418
 
 permalink: /blog/:title/
 collections:
