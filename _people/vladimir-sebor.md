@@ -1,7 +1,7 @@
 ---
 name:        Vladimír Šebor
 layout:      lide
-order:       5
+order:       4
 img:         vladimir-sebor.jpg
 description: Živnostník, správce datových sítí, aktivista
 ---

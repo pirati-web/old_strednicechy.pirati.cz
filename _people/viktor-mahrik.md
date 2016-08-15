@@ -1,7 +1,7 @@
 ---
 name:        Viktor Mahrik
 layout:      lide
-order:       2
+order:       0
 img:         viktor-mahrik.jpg
 description: Manažer národního výzkumu navštěvovanosti českého Internetu. Zaměřuje se na transparentní hospodaření a zveřejnování informací na Internetu.
 ---

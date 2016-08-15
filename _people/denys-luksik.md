@@ -1,7 +1,7 @@
 ---
 name:        Denys Luksík
 layout:      lide
-order:       4
+order:       3
 img:         denys-luksik.jpg
 description: Student ekonomie, fotbalový trenér
 ---

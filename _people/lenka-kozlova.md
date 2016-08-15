@@ -1,7 +1,7 @@
 ---
 name:        Lenka Kozlová
 layout:      lide
-order:       3
+order:       2
 img:         lenka-kozlova.jpg
 description: Vychovatelka
 ---
