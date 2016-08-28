@@ -7,6 +7,13 @@ layout: default
 <div class="row">
   <div class="large-6 column">
     <h3>Kontakty</h3>
+  </div>
+  <div class="large-6 column">
+    <h3>Pirátské centrum</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="large-3 column">
     <div class="media-object">
       <div class="media-object-section">
         <div class="thumbnail" >
@@ -30,6 +37,8 @@ layout: default
         <p>předsedkyně krajského sdružení<br>lenka.kozlova@pirati.cz<br>+420 603 497 753</p>
       </div>
     </div>
+  </div>
+  <div class="large-3 column">
     <div class="media-object">
       <div class="media-object-section">
         <div class="thumbnail">
@@ -46,51 +55,42 @@ layout: default
       <p>koordinátor dobrovolníků<br>+420 733 322 466<br>pavel.majtan@pirati.cz</p>
     </div>
   </div>
-
-      <dl style="border-right: 1px solid #E3E5E8;">
-
-        <h3>Pirátská mapa</h3>
-        <img src= "/assets/img/o-nas/sck_mapa_kontaktu.png">
-
-      <h3>Pirátské centrum</h3>
-      <dd><address>Řehořova 943/19, 130 00 Praha 3</address>
-      <div class="media-object">
-      <div class="media-object-section">
-        <div class="thumbnail">
-          <img style="height: 65px;" src= "https://forum.pirati.cz/download/file.php?avatar=7508_1424355677.jpg">
-        </div>
-      </div>
-      <div class="media-object-section main-section">
-        <h6><a href="{{ '/lide/tobias-esner/' | prepend: site.baseurl }}">Vladislav Tobias Esner</a></h6>
-        <p>tobias.esner@pirati.cz +420 778 702 713<br>správce Pirátského centra</p>
-      </div>
-    </div>
-        <iframe src="{{ site.kontakt.map }}" width="500" height="300" frameborder="0" style="border:0" allowfullscreen>
-        </iframe>
-      </dd>
-    </dl>
-  </div>
   <div class="large-6 column">
-    <h3>Představitelé</h3>
 
-    <dl>
-      <dt>Lenka Kozlová</dt>
-      <dd>předsedkyně</dd>
-      <p></p>
-      <dt>František Kopřiva</dt>
-      <dd>1. místopředseda</dd>
-      <p></p>
-      <dt>Petr Procházka</dt>
-      <dd>2. místopředseda</dd>
-      <p></p>
-      <dt>Lubor Jenček</dt>
-      <dd>3. místopředseda</dd>
-      <p></p>
-      <dt>Vladimír Lánský</dt>
-      <dd>4. místopředseda</dd>
-    </dl>
-
+    <dd><address>Řehořova 943/19, 130 00 Praha 3</address>
+    <iframe src="{{ site.kontakt.map }}" width="500" height="300" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
   </div>
+</div>
+<div class="row">
+  <!-- Modalní okna -->
+  <div class="reveal" id="exampleModal1" data-reveal>
+    <h1>František Kopřiva</h1>
+    <p class="lead">Kontaktní osoba pro: Praha - východ, Praha - Západ</p>
+    <p>Tel: 736 749 464, Mail: frantisek.kopriva@pirati.cz</p>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <img src= "/assets/img/o-nas/sck_mapa_kontaktu.png" alt="" usemap="#Map" />
+
+  <map name="Map" id="Map">
+
+    <!-- Praha východ, západ -->
+    <area alt="Praha východ, západ" title="Praha východ, západ" data-open="exampleModal1" shape="poly" coords="454,578,488,553,526,494,566,499,574,476,640,514,679,466,712,479,683,523,715,527,721,559,723,575,688,593,693,634,729,642,756,660,737,688,746,706,706,716,662,716,608,702,558,713,542,757,496,710,451,708,499,649,489,617" />
+
+    <!-- Příbram, Beroun -->
+    <area alt="Příbram, Beroun" title="Příbram, Beroun" shape="poly" coords="588,910,587,855,567,858,581,797,551,798,540,766,495,716,448,713,446,705,488,653,480,623,442,575,415,582,397,599,387,591,366,623,329,612,327,640,315,691,312,735,259,760,330,762,347,779,341,887,420,876,505,896" />
+
+    <area alt="Kutná hora, Benešov" title="Kutná hora, Benešov" shape="poly" coords="595,917,601,856,581,848,593,800,563,790,552,763,570,724,608,715,671,728,766,711,831,691,924,649,982,706,949,770,926,770,932,791,829,796,818,810,817,889,745,891,710,928,662,870,603,930" />
+
+    <area alt="Kladno, Mělník" title="Kladno, Mělník" shape="poly" coords="450,572,485,546,523,485,558,491,576,468,635,502,672,454,711,426,698,357,625,330,616,384,599,399,572,399,572,413,443,396,370,447,400,491,385,524,367,523,371,538,399,581,427,571,707,348" />
+
+    <area alt="Mladá Boleslav" title="Mladá Boleslav" shape="poly" coords="710,348,724,426,690,456,728,473,702,515,750,487,791,511,791,511,858,452,879,358,769,359,733,315" />
+
+    <area alt="Rakovník" title="Rakovník" shape="poly" coords="357,447,382,488,379,515,355,515,380,580,360,610,328,603,312,638,234,574,271,570,286,545,287,456" />
+</map>
 </div>
 <div class="row">
   <div class="large-12 column">
