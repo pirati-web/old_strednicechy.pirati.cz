@@ -13,6 +13,6 @@ Do Pirátské strany vstoupil v 18 letech na jaře 2014 poté, co dlouhodobě po
 Angažováním se v České pirátské straně nechce František nic menšího, než přispět k pozitivnímu vývoji lidstva. Piráti jsou pro něj názorově nejkompatibilnější stranou a považuje ji za nejlepší alternativu na české politické scéně. Strana ho velmi obohatila a poskytla prostor získávat nové zkušenosti a pracovat s výbornými lidmi, František se zase snaží být co největším přínosem pro pirátské hejno.
 
 
-Web: https://frantisekkopriva.cz
+Facebook: https://www.facebook.com/piratFranta/ 
 
 Twitter: https://twitter.com/FrantiekKopiva
