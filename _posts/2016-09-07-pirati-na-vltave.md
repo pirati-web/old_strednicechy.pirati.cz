@@ -14,10 +14,14 @@ Z Prahy se naši kandidáti vypraví, tentokrát už po souši, do více jak des
 
 „Počasí nám přálo, takže jsme si start kampaně všichni užili. Teď se vydáme do Středočeského kraje, kde se s námi budou moct občané potkat a diskutovat o problémech našeho kraje,“ říká František Kopřiva. „Kromě toho pořádáme během září v rámci kampaně také tři festivaly VyOsení. Na svobodnou hudbu bez poplatků OSA se můžete těšit v Příbrami, Mladé Boleslavi a Nymburce,“ dodává lídr středočeské kandidátky.
 
-Všechny akce najdete v kalendáři na našem webu: https://strednicechy.pirati.cz/kalendar/
+Všechny akce najdete [v kalendáři](https://strednicechy.pirati.cz/kalendar/)
 
 ![Fotky z plavby](/assets/img/posts/pirati-na-vltave-2.jpg)
+
 ![Fotky z plavby](/assets/img/posts/pirati-na-vltave-3.jpg)
+
 ![Fotky z plavby](/assets/img/posts/pirati-na-vltave-4.jpg)
+
 ![Fotky z plavby](/assets/img/posts/pirati-na-vltave-5.jpg)
+
 ![Fotky z plavby](/assets/img/posts/pirati-na-vltave-6.jpg)
