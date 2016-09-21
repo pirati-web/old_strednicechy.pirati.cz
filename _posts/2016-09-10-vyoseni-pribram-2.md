@@ -3,7 +3,7 @@ layout: post
 category: blog
 tags: vyoseni, pribram, akce-2016
 title: "Na 2. příbramském VyOsení to žilo"
-image: IMG_2888.jpg
+image: IMG_2888.JPG
 author: Lenka Kozlová
 date: 2016-09-10
 ---
@@ -22,14 +22,14 @@ Podívejte se také na reportáž TV FONKA z příbramského VyOsení a rozhovo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KRZltpYD3Cw" frameborder="0" allowfullscreen></iframe>
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2726.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2726.JPG)
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2734.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2734.JPG)
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2758.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2758.JPG)
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2763.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2763.JPG)
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2778.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2778.JPG)
 
-![Fotky z VyOsení](/assets/img/posts/IMG_2830.jpg)
+![Fotky z VyOsení](/assets/img/posts/IMG_2830.JPG)
