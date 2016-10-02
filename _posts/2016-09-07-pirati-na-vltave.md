@@ -2,7 +2,7 @@
 layout: post
 category: blog
 tags: akce, kampan, lod
-title: "Piráti vypluly vstříc krajským volbám"
+title: "Piráti vypluli vstříc krajským volbám"
 image: pirati-na-vltave-1.jpg
 author: František Kopřiva
 date: 2016-09-07
