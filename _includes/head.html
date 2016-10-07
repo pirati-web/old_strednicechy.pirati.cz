@@ -18,15 +18,8 @@
   {% endif %}
 
   <link rel="icon" type="image/png" href="{{ "/assets/img/layout/favicon.png" | prepend: site.baseurl }}" />
-  {% if site.cdn %}
-  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.css" />
-  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" />
-  <link rel='stylesheet' type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css" />
-  <link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  {% else %}
-  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/foundation.min.css" | prepend: site.baseurl }}" />
-  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/foundation-icons.css" | prepend: site.baseurl }}" />
-  <link rel='stylesheet' type='text/css' href="{{ "assets/offline/motion-ui.min.css" | prepend: site.baseurl }}" />
-  <link rel='stylesheet' type='text/css' href="{{ "/css/main.css" | prepend: site.baseurl }}" />
-  {% endif %}
+
+  {% for src in site.cdn_libs.css %}
+  <link rel='stylesheet' type='text/css' href='{{src}}' />{% endfor %}
+  <link rel='stylesheet' type='text/css' href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
 </head>

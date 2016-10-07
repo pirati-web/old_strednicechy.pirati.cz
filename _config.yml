@@ -42,4 +42,12 @@ paginate: 12
 # Build settings
 markdown: kramdown
 
-cdn: true
+cdn_libs:
+    css:
+      - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.css
+      - https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css
+      - https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css
+    js:
+      - https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js
+      - https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js
+      - https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.js
