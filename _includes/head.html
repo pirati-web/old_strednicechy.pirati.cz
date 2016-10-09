@@ -7,19 +7,19 @@
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <meta property="og:url" content="{{page.url | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:url" content="{{page.url | prepend: site.url }}" />
   <meta property="og:site_name" content="Piráti Střední Čechy" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   {% if page.layout == "post" %}
   <meta property="og:type" content="article" />
-  <meta property="og:image" content="{{page.image | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:image" content="{{page.image | prepend: site.url }}" />
   <meta property="og:description" content="{{ post.excerpt | truncatewords: 34 }}" />
   <meta property="og:locale" content="cs_CZ" />
   {% endif %}
 
-  <link rel="icon" type="image/png" href="{{ "/assets/img/layout/favicon.png" | prepend: site.baseurl }}" />
+  <link rel="icon" type="image/png" href="{{ "/assets/img/layout/favicon.png" }}" />
 
   {% for src in site.cdn_libs.css %}
   <link rel='stylesheet' type='text/css' href='{{src}}' />{% endfor %}
-  <link rel='stylesheet' type='text/css' href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+  <link rel='stylesheet' type='text/css' href="/assets/css/main.css" />
 </head>
