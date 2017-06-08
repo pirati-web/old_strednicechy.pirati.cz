@@ -8,25 +8,6 @@ layout: default
     <div class="row" style="width: 550px;">
       <div class="large-12 column">
         {% if page.name == 'index.html' %}
-        <!-- Carousel / Orbit -->
-        <div class="orbit" role="region" aria-label="Náš tým" data-orbit style="width: 450px;">
-          <ul class="orbit-container">
-            <button class="orbit-previous"><span class="show-for-sr">Předchozí</span>&#9664;&#xFE0E;</button>
-            <button class="orbit-next"><span class="show-for-sr">Další</span>&#9654;&#xFE0E;</button>
-            {% for person in sorted_people %}
-		{% if person.order == 0 %}
-		{% continue %}
-		{% endif %}
-              <li class="orbit-slide{% if forloop.first %} is-active{% endif %}">
-                <a href="{{person.url}}">
-                  <img class="orbit-image" src="{{person.img | prepend: "/assets/img/people/" }}" alt="{{person.name}}">
-                  <figcaption class="orbit-caption">{{person.name}}</figcaption>
-                </a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-        <!-- end Carousel / Orbit -->
         {% else %}
         <img src="{{page.img | prepend: "/assets/img/people/" }}" alt="{{page.name}}">
         {% endif %}
