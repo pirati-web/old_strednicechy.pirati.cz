@@ -12,6 +12,8 @@ Používáme technologii [Jekyll](http://jekyllrb.com/), která tvoří web ze s
 - profily lidí z týmu jsou markdown soubory v adresaři `_pepople`
 - stránky jsou klasické html soubory (mohou být i markdown)
 
+
+
 ### Lokální test
 
 V adresaři s repozitářem spustíme příkaz:
